@@ -1,0 +1,95 @@
+.flex-container{
+  display: flex;
+}
+.column{
+  padding-left: 30px;
+  flex: 35%;
+}
+.column1{
+  flex: 65%;
+}
+img{
+  border-radius: 40%;
+}
+.anchor{
+  display: inline-block;
+  padding: 13px 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0px 20px;
+  background-color: #8579A1;
+  border-radius: 6%;
+  color: #E5FCC2;
+}
+#anchor{
+  margin-left: 65%;
+}
+a:hover{
+  background-color: #242754;
+}
+.nav-bar{
+  height: 50px;
+  margin-top: 0px;
+}
+body{
+  background-image:linear-gradient(#E5FCC2, #DABFB6, #9096C6);
+  color: #152A3C;
+  font-family: sans-serif;
+}
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 15px;
+}
+h1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+hr{
+  width: 5%;
+  border: none;
+  border-top:5px dotted;
+  height: 1px;
+  padding: 10px 0 10px 0;
+  color: #D8EDF2;
+
+}
+.list{
+  padding: 20px;
+  font-size: 1.2rem;
+}
+.para{
+  font-size: 1.2rem;
+  margin-right: 80px;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.footer{
+  display: flex;
+}
+.footer1{
+  display: inline-block;
+  padding:30px;
+}
+.footer2{
+  margin: auto;
+}
+.fa {
+  padding: 0 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+#column1:target{
+  color: white;
+}
+#contact:target{
+  color:white;
+}
